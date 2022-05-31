@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1">
+                <i class="fa fa-beer fa-5x"></i>
+            </div>
+            <div class="col-11">
+                <h1 data-text="ZippyBrewery">Zippy Brewery</h1>
+            </div>
+        </div>
+    </div>
+    <p class="sticky">Give a man a Beer and he wastes an Hour <i class="fa fa-beer fa-2x"></i> But Teach him how to <strong>BREW</strong> and he wastes a LifeTime</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p class="one">YOUR BREWERY. YOUR BRANDS.</p>
+                <p class="two">Now it's possible to easily brew WORLD-CLASS craft beer onsite.</p>
+                <p class="three">Introducing the most advanced automated brewery technology on the market that requires no brewing experience: SmartBrew.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img1" src="https://media.istockphoto.com/photos/beer-bottles-filling-on-the-conveyor-belt-in-the-brewery-factory-picture-id1179301424" alt="name&type" style="width: 100%">
+            </div>
+            <div class="col-md-6">
+                <img class="img2" src="https://www.kenresearch.com/blog/wp-content/uploads/2019/07/Global-Beer-Manufacturing-Breweries-Market.jpg" alt="address" style="width: 100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p class="namep"><strong>Names</strong> of the top Brewery and there <strong>types</strong></p>
+                <button class="btn1" onclick="foo()">Names&Brewery type</button> <br>
+                <i id="handsup" class="fa fa-hand-o-up fa-2x" ></i>
+            </div>
+            <div class="col-md-10">
+                <div id="name"></div>
+                <div id="name2"></div>
+                <img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTfh_0SAO66aAaWReM-QHPsiH0tlgetA8_gQ&usqp=CAU" alt="names" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <div id="add1"></div>
+                <div id="add2"></div>
+                <img class="img4" src="https://live.staticflickr.com/2655/3943805696_dc3e593364_b.jpg" alt="address" style="width: 100%;">
+            </div>
+            <div class="col-md-2">
+                <p class="address"><strong>Address</strong> of<br>the Above mentioned Companies</p>
+                <div>
+                <i id="handsup" class="fa fa-hand-o-right fa-2x" ></i>
+                <button class="btn2" onclick="add()">Address</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p class="url"><strong>url</strong> <br>of <br>the Above mentioned Companies</p>
+                <div>
+                <i id="handsup" class="fa fa-hand-o-right fa-2x" ></i>
+                <button class="btn3" onclick="url()">Get url</button>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div id="url1"></div>
+                <div id="url2"></div>
+                <img class="img4" src="https://sipmagazine.com/wp-content/uploads/2019/07/Beachcrest-Brewing-Company-featured.jpg" alt="url" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <div id="ph1"></div>
+                <div id="ph2"></div>
+                <img class="img5" src="https://premierconstructionnews.com/wp-content/uploads/2019/10/lr-Salt-Beer-Factory.jpg" alt="ohone number" style="width: 100%;">
+            </div>
+            <div class="col-md-2">
+                <p class="phone"><strong>Phone number</strong> of <br>the Above mentioned Companies</p>
+                <button class="btn4" onclick="ph()">Phone number</button>
+                <i id="handsup" class="fa fa-hand-o-up fa-2x" ></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
